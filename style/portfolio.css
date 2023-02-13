@@ -20,9 +20,19 @@ h6 {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
+
 p {
   font-family: var(--deafault-font-family);
-  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .big {
@@ -40,7 +50,7 @@ p {
 
 .big h2 {
   font-family: var(--deafault-font-family);
-  line-height: 2;
+  line-height: 1.5;
   font-size: 24px;
   font-weight: normal;
 }
@@ -52,4 +62,36 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-text {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-desc {
+  padding: 120px 60;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .big {
+    padding: 80px 20px;
+  }
+  .project-desc {
+    padding: 0;
+    text-align: center;
+  }
 }
