@@ -20,25 +20,32 @@
     ></script>
     <link rel="stylesheet" href="style/portfolio.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Timi is a front-end developer student based in Lagos,Nigeria"
+    />
+    <title>Front-end developer - Timileyin Ogunbanjo</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="index.html" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Timi logo"
+          />
           <img
             src="images/logo-small.jpg"
             class="logo d-block d-md-none"
-            alt=""
+            alt="Timi logo"
           />
         </a>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="index.html" title="Homepage">Home</a></li>
+          <li><a href="about.html" title="About page">About</a></li>
+          <li><a href="work.html" title="Work page">Work</a></li>
+          <li><a href="contact.html" title="Contact page">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -47,7 +54,9 @@
       <h1>Timileyin Ogunbanjo</h1>
       <h2 class="mb-5">I'm a student based in Lagos,Nigeria</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="contact.html" class="btn btn-branding" title="Contact page"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
@@ -56,7 +65,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/yoghurt.png.png" class="img-fluid" alt="" />
+          <img
+            src="images/yoghurt.png.png"
+            class="img-fluid"
+            alt="Yoghurt project"
+          />
         </div>
         <div class="col">
           <div class="project-desc">
@@ -68,7 +81,7 @@
               lactic acid, which acts on milk protein to give yogurt its texture
               and characteristic tart flavor.
             </p>
-            <a href="#" class="btn btn-branding-text">Learn more</a>
+            <a href="work.html" class="btn btn-branding-text">Learn more</a>
           </div>
         </div>
       </div>
@@ -82,16 +95,24 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-text">Learn more</a>
+            <a href="work.html" class="btn btn-branding-text">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png.png" class="img-fluid" alt="" />
+          <img
+            src="images/weather.png.png"
+            class="img-fluid"
+            alt="Weather project"
+          />
         </div>
       </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/dictonary.png.png" class="img-fluid" alt="" />
+          <img
+            src="images/dictonary.png.png"
+            class="img-fluid"
+            alt="Dictonary app"
+          />
         </div>
         <div class="col">
           <div class="project-desc">
@@ -102,39 +123,63 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-text">Learn more</a>
+            <a href="work.html" class="btn btn-branding-text">Learn more</a>
           </div>
         </div>
       </div>
-      <footer>
+      <footer class="container">
         <div
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
-            <p classs="text-muted">let's work together</p>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contant me</a>
+            <a
+              href="contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact me"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center">
-          <a href="mailto:Timileyinogunbanjo09@gmail.com" class="email-link"
+          <a
+            href="mailto:Timileyinogunbanjo09@gmail.com"
+            class="email-link"
+            title="Email me"
             >Timileyinogunbanjo09@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.Instagram.com/Tafara___" target="blank">
+          <a
+            href="https://www.Instagram.com/Tafara___"
+            target="blank"
+            title="my Instagram account"
+          >
             <i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="https://www.github.com/TafaraO" target="blank"
+          <a
+            href="https://www.github.com/TafaraO"
+            target="blank"
+            title="my github profile"
             ><i class="fa-brands fa-github"></i
           ></a>
-          <a href="https://www.twitter.com/Tafara___" target="blank"
+          <a
+            href="https://www.twitter.com/Tafara___"
+            target="blank"
+            title="my Twitter account"
             ><i class="fa-brands fa-twitter"></i
           ></a>
         </div>
       </footer>
+      <p class="text-center mt-5">
+        This project was coded by Timileyin Ogunbanjo, and it is
+        <a href="https://github.com/TafaraO/portfolio-project" target="_blank"
+          >open-sourced</a
+        >
+      </p>
     </div>
   </body>
 </html>

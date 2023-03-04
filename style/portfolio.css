@@ -29,12 +29,12 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -70,7 +70,7 @@ p {
 .big {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .big p {
@@ -146,7 +146,7 @@ footer {
 
 footer .contact-box {
   background: var(--secondary-color);
-  padding: 30px 120[x];
+  padding: 30px 120;
   border-radius: 10px;
 }
 
@@ -189,7 +189,7 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
-  h4 {
+  h3 {
     font-size: 18px;
   }
 
